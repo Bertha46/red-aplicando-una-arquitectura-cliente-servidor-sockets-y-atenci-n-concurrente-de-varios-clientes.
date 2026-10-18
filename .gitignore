@@ -1,0 +1,14 @@
+# Ignorar clases compiladas y bin
+bin/
+*.class
+*.log
+server.pid
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Mac
+.DS_Store
