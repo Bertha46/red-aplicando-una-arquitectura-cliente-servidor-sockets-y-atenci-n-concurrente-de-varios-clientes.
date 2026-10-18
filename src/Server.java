@@ -87,8 +87,7 @@ public class Server {
                         out.println("Conexión cerrada. ¡Hasta luego!");
                         break; // cerrar solo este cliente
                     } else if (cmd.equals("ayuda")) {
-                        out.println("Comandos disponibles: horario, aula, docente, materia, fecha, hora, ayuda, salir");
-                        out.println("Ejemplo de consulta con parámetro: 'docente Sistemas Distribuidos'");
+                        out.println("Comandos disponibles: horario, aula, docente, materia, fecha, hora, ayuda, salir. Ejemplo: docente Sistemas Distribuidos");
                     } else if (cmd.equals("fecha")) {
                         out.println("Fecha del servidor: " + LocalDate.now().format(dateFmt));
                     } else if (cmd.equals("hora")) {
